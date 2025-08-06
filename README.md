@@ -45,6 +45,7 @@ sh_manager/
 
 ### តម្រូវការមុន
 
+- **macOS តែប៉ុណ្ណោះ:** ឧបករណ៍នេះត្រូវបានរចនាឡើងសម្រាប់ macOS តែប៉ុណ្ណោះ
 - Python 3.11.11 ឬខ្ពស់ជាង
 - [uv](https://github.com/astral-sh/uv) package manager (ណែនាំ)
 
@@ -105,6 +106,29 @@ uv run make-executable
 ### 3. `reset_navicate.sh`
 
 កំណត់ឡើងវិញនូវការកំណត់ការតភ្ជាប់មូលដ្ឋានទិន្នន័យ Navicat និង cache។
+
+---
+
+## 🖥️ កម្មវិធីដែលអាចកំណត់ឡើងវិញបាន
+
+### JetBrains IDE Suite
+
+ឧបករណ៍ `reset_intellijidea.sh` អាចកំណត់ឡើងវិញបានគ្រប់កម្មវិធី JetBrains ដូចជា:
+
+- **IntelliJ IDEA** - Java IDE
+
+### Database Management Tools
+
+ឧបករណ៍ `reset_navicate.sh` អាចកំណត់ឡើងវិញបាន:
+
+- **Navicat Premium** (ជំនាន់ 15, 16, 17) - ឧបករណ៍គ្រប់គ្រងមូលដ្ឋានទិន្នន័យ
+
+### ការកំណត់ឡើងវិញរួមបញ្ចូល:
+
+- ការកំណត់រចនាសម្ព័ន្ធ និង cache
+- ការលុបពេលវេលាសាកល្បង
+- ការកំណត់ឡើងវិញនូវការកំណត់អ្នកប្រើប្រាស់
+- ការលុបឯកសារ preferences និង plist
 
 ---
 
@@ -274,6 +298,7 @@ sh_manager/
 
 ### Prerequisites
 
+- **macOS Only:** This tool is designed specifically for macOS
 - Python 3.11.11 or higher
 - [uv](https://github.com/astral-sh/uv) package manager (recommended)
 
@@ -334,6 +359,29 @@ Resets IntelliJ IDEA settings and caches. Useful for resolving IDE issues.
 ### 3. `reset_navicate.sh`
 
 Resets Navicat database connection settings and caches.
+
+---
+
+## 🖥️ Applications That Can Be Reset
+
+### JetBrains IDE Suite
+
+The `reset_intellijidea.sh` tool can reset all JetBrains applications including:
+
+- **IntelliJ IDEA** - Java IDE
+
+### Database Management Tools
+
+The `reset_navicate.sh` tool can reset:
+
+- **Navicat Premium** (Versions 15, 16, 17) - Database management tool
+
+### Reset Includes:
+
+- Settings and cache reset
+- Trial period reset
+- User configuration reset
+- Preferences and plist file cleanup
 
 ---
 
