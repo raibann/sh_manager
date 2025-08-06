@@ -1,0 +1,11 @@
+[project]
+name = "sh-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.11"
+dependencies = []
+
+[project.scripts]
+sh-manager = "main:main"
+make-executable = "make_executable:make_all_shell_files_executable"
