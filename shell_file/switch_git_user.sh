@@ -17,7 +17,7 @@ fi
 if [ ! -f "$USER_CONFIG_JSON" ]; then
     echo "Error: $USER_CONFIG_JSON not found."
     echo "Please create a JSON file with an array of objects like:"
-    echo '[{"name": "@raibann.ma", "email": "raibann.ma@cogetel.com.kh"}, {"name": "@raibann.rb", "email": "raibann.rb@gmail.com"}]'
+    echo '[{"name": "@username", "email": "username@example.com"}, {"name": "@username2", "email": "username2@example.com"}]'
     exit 1
 fi
 
