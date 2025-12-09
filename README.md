@@ -69,9 +69,6 @@ sh_manager/
 ```bash
 # ប្រើ uv
 uv run main.py
-
-# ឬដំឡើង និងដំណើរការជា script
-uv run sh-manager
 ```
 
 ### ការរៀបចំការអនុញ្ញាតច្រើន
